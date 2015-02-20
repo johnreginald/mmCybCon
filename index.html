@@ -2,11 +2,9 @@
 <html>
     <head>
         <title>Myanmar Cyber Conference</title>
-        <script src="assets/jquery.js"></script>
-        <link rel="stylesheet" href="assets/semantic.min.css" />
+        <link rel="stylesheet" href="assets/sec.css" />
         <link rel="stylesheet" href="assets/style.css" />
-        <link rel="stylesheet" href="assets/components/icon.min.css" />
-        <script src="assets/semantic.min.js"></script>
+        <link rel="stylesheet" href="assets/icon.min.css" />
     </head>
     <body id="home">
 <!-- NAV BAR -->
@@ -17,14 +15,16 @@
                 <img src="img/logo.png" style="height: 50px;"></img>
             </div>
             <div class="four wide column"></div>
-            <div class="eight wide column">
-                <div class="ui horizontal list" id="nav-item">
-                    <a class="item" href="#home">Home</a>
-                    <a class="item" href="#link-about">About Us</a>
-                    <a class="item" href="#link-speaker">Speakers</a>
-                    <a class="item" href="#link-video">Video Archive</a>
-                    <a class="item" href="#link-form">Contact Us</a>
-                </div>
+            <div class="eight wide column">           
+                <nav>
+                    <ul>
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="#link-about">About Us</a></li>
+                        <li><a href="#link-speaker">Speakers</a></li>
+                        <li><a href="#link-video">Video Archive</a></li>
+                        <li><a href="#link-form">Contact Us</a></li>
+                    </ul>
+                </nav>  
             </div>
         </div>
     </div>
@@ -36,15 +36,15 @@
 <div class="space-aboutus" id="link-about">
 <div class="ui page grid">
     <div class="center aligned column" id="about-l">
-    <img src="img/logo.png" style="height: 200px;">
+    <img src="img/logo.png" style="height: 200px;" data-sr='enter from the top and scale up 20% please reset'>
 <!--      <div class="ui huge header">Myanmar Cyber Conference</div>-->
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <p data-sr='scale up 30% and wait 0.5s please and reset'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    <p data-sr='scale up 30% and wait 0.5s please and reset'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -59,7 +59,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <div class="space-subscribe" id="link-subscribe">
     <div class="ui center aligned page grid">
         <div class="column ten wide">
-        <div class="ui huge header" id="header-white">Subscribe For Upcoming Events</div>
+        <div class="ui huge header" id="header-white" data-sr='enter from left and ease 10% reset'>Subscribe For Upcoming Events</div>
         <form class="ui form">
             <div class="field">
                 <div class="ui massive action input">
@@ -77,19 +77,19 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <div class="ui three column page grid">
     <h1 class="ui center aligned header">Our Speakers</h1>
     
-    <div class="center aligned column">
+    <div class="center aligned column" data-sr='enter from left and ease-in 30% reset'>
         <img class="ui centered medium circular image" src="img/square-image.png">
         <h3>Steve Jobs</h3>
         <p>Apple CEO and Co-Founder</p>
     </div>
     
-    <div class="center aligned column">
+    <div class="center aligned column" data-sr='enter from buttom--t and ease-in 30% reset'>
         <img class="ui centered medium circular image" src="img/square-image.png">
         <h3>Mark Zuckerberg</h3>
         <p>Former Hacker and Facebook CEO</p>
     </div>
     
-    <div class="center aligned column">
+    <div class="center aligned column" data-sr='enter from right and ease-in 30% reset'>
         <img class="ui centered medium circular image" src="img/square-image.png">
         <h3>Bill Gates</h3>
         <p>Microsoft Founder and Linux Enthusiast</p>
@@ -102,22 +102,22 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <div class="space-video" id="link-video">
     <div class="ui center aligned huge header">Speaker Video Archive</div>
     <div class="ui center aligned page three column grid">
-        <div class="column">
+        <div class="column" data-sr='scale up 30% reset'>
             <div class="ui video" data-source="youtube" data-id="i_mKY2CQ9Kk" data-image="img/smoke.jpg"><i class="video play icon"></i></div>        
         </div>
-        <div class="column">
+        <div class="column" data-sr='scale up 30% reset'>
             <div class="ui video" data-source="youtube" data-id="i_mKY2CQ9Kk" data-image="img/smoke.jpg"><i class="video play icon"></i></div>      
         </div>
-        <div class="column">
+        <div class="column" data-sr='scale up 30% reset'>
             <div class="ui video" data-source="youtube" data-id="i_mKY2CQ9Kk" data-image="img/smoke.jpg"><i class="video play icon"></i></div>        
         </div>
-        <div class="column">
+        <div class="column" data-sr='scale up 30% reset'>
             <div class="ui video" data-source="youtube" data-id="i_mKY2CQ9Kk" data-image="img/smoke.jpg"><i class="video play icon"></i></div>      
         </div>
-        <div class="column">
+        <div class="column" data-sr='scale up 30% reset'>
             <div class="ui video" data-source="youtube" data-id="i_mKY2CQ9Kk" data-image="img/smoke.jpg"><i class="video play icon"></i></div>        
         </div>
-        <div class="column">
+        <div class="column" data-sr='scale up 30% reset'>
             <div class="ui video" data-source="youtube" data-id="i_mKY2CQ9Kk" data-image="img/smoke.jpg"><i class="video play icon"></i></div>      
         </div>        
     </div>
@@ -130,26 +130,26 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         <form class="ui form">
             <h1 class="ui dividing header">Contact Us</h1>
 
-            <div class="field">
+            <div class="field" data-sr='enter left and ease 30% reset'>
                 <label>Subject</label>
-                <select class="ui dropdown">
+                <select class="ui dropdown" >
                 <option value="">Select Your Subject</option>
                 <option value="1">New Event</option>
                 <option value="0">Sponsor</option>
                 </select>
             </div>
             
-            <div class="field">
+            <div class="field" data-sr='wait 0.7s then enter left and ease 30% over 0.5s reset'>
                 <label>Email Address</label>
                 <input type="email" name="email">
             </div>
             
-            <div class="field">
+            <div class="field" data-sr='wait 1s then enter left and ease 30% over 0.5s reset'>
                 <label>Message</label>
                 <textarea></textarea>
             </div>
        
-        <div class="ui submit button">Send Message</div>
+        <div class="ui submit large orange button">Send Message</div>
         </form>       
     </div>
     <div class="column">
@@ -171,20 +171,9 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>     
     </div>
 </footer>
-<script>
-var num = 100; //number of pixels before modifying styles
-
-$('.ui.video').video();
-
-$('select.dropdown').dropdown();    
-    
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > num) {
-        $('.nav-menu').addClass('nav-fixed');
-    } else {
-        $('.nav-menu').removeClass('nav-fixed');
-    }
-});
-</script>
+<script src="assets/jquery.js"></script>
+<script src="assets/sec.js"></script>
+<script src="assets/sreveal.js"></script>
+<script src="assets/custom.js"></script>
 </body>
 </html>
